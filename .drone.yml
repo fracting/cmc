@@ -13,15 +13,6 @@ build:
     - fluxbox &
     - vendor/bin/robo run:tests
 notify:
-  email:
-    from: test01@compojoom.com
-    host: smtp.mandrillapp.com
-    port: 587
-    username: yves@compojoom.com
-    password: $$API_KEY
-    recipients:
-      - yves@compojoom.com
-      - daniel@compojoom.com
   irc:
     prefix: build
     nick: compodronebot
