@@ -15,8 +15,8 @@ build:
 notify:
   irc:
     prefix: build
-    nick: compodronebot
-    channel: compojoom
+    nick: drone4
+    channel: wine-zh
     server:
       host: chat.freenode.net
       port: 6667
